@@ -15,7 +15,6 @@ class Display
 
     def move_cursor 
         selected_position = cursor.get_input 
-        render  
         selected_position
     end 
 

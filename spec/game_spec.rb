@@ -17,7 +17,7 @@ describe Game do
                 g.board[6, 7] = King.new(:white, g.board.icon(g.board.unicode('white king')), [6, 7], g.board, 'King')
                 g.board[5, 5] = King.new(:black, g.board.icon(g.board.unicode('black king')), [5, 5], g.board, 'King')
                 g.board[6, 6] = Queen.new(:black, g.board.icon(g.board.unicode('black queen')), [6, 6], g.board, 'Queen')
-                debugger 
+                
                 expect(g.checkmate?).to eq(true) 
             end 
 
